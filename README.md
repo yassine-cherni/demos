@@ -11,7 +11,7 @@
 ## Install
 
 ```bash
-sudo apt update && sudo apt install upgrade -y
+sudo apt update && sudo apt upgrade -y
 mkdir ~/ws_pai/src -p && cd ~/ws_pai/src
 git clone https://github.com/ros-physical-ai/demos
 vcs import . < demos/pai.repos --recursive
